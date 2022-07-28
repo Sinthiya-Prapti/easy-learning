@@ -1,18 +1,30 @@
-#text-align{
-    display:flex;
+#text-align {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-#text-align button{
+
+#text-align button {
     margin-top: 10px;
     margin-left: 150px;
 }
-.images_size img{
-    width: 100px;
+
+#carouselExampleControls .carousel-item .img_sizing {
+    height:600px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
 }
-footer p{
+
+.carousel-item img {
+    height:750px;
+}
+
+footer p {
     color: gray;
 }
-footer i{
+
+footer i {
     margin-right: 10px;
 }
