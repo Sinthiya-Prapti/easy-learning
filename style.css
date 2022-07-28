@@ -7,6 +7,9 @@
     margin-top: 10px;
     margin-left: 150px;
 }
+.images_size img{
+    width: 100px;
+}
 footer p{
     color: gray;
 }
